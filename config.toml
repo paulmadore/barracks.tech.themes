@@ -1,0 +1,20 @@
+baseurl = "https://barracks.tech"
+languageCode = "en-us"
+title = "Tech Barracks: Geek News and Nerd Nonsense"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+theme = "barracks"
+footnotereturnlinkcontents = "↩"
+[permalinks]
+  post = "/:year/:month/:title/"
+[params]
+  subtitle = "Angry Nerds Making Too Much Sense"
+  description = "Geek Acumen"
+  SidebarRecentLimit = 5
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIDAnchors = true
+  extensions = ["hardLineBreak"]

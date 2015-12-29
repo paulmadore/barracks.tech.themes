@@ -1,0 +1,23 @@
+{{ $baseURL := .Site.BaseURL }}
+<div class="cats">
+<h3 class="tagsh">topics</h3>
+<ul>
+{{ range $name, $value := .Site.Taxonomies.categories }}
+<li><a href="{{ $baseURL }}categories/{{ $name | urlize | safeURL }}/">{{ title $name }}</a></li>
+{{ end }}
+</ul>
+</div>
+<h3 class="tagsh">tags</h3>
+<div class="tags">
+{{ range $name, $value := .Site.Taxonomies.tags }}
+<a href="{{ $baseURL }}tags/{{ $name | urlize | safeURL }}/">{{ $name }}</a>
+{{ end }}
+</div>
+<div class="etcnav">
+<h3 class="tagsh">etc</h3>
+<ul>
+    <li><a href="https://barracks.tech/about.html" onclick="return abt('https://barracks.tech/about.html')" target="_self">about</a></li>
+    <li><a href="https://barracks.tech/advertise.html" onclick="return abt('https://barracks.tech/advertise.html')" target="_self">advertise</a></li>
+    <li><a href="https://barracks.tech/submissions" target="_blank">contribute</a></li>
+</ul>
+</div>

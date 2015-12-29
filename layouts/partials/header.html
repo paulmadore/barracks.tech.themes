@@ -1,0 +1,16 @@
+{{ $baseurl := .Site.BaseURL }}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+<meta charset="utf-8">
+{{ .Hugo.Generator }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://barracks.tech/css/barracks.tech.css" type="text/css">
+<link rel="alternate" href="https://barracks.tech/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+<script src="https://barracks.tech/js/mail.js"></script>
+<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>
+<body>
+  {{ partial "oversite.html" . }}
+<div class="container">
+

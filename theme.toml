@@ -1,0 +1,12 @@
+name = "Tech Barracks"
+license = "MPL 2.0"
+licenselink = "https://www.mozilla.org/en-US/MPL/2.0/"
+description = "The theme for barracks.tech. Fonts and images are all public domain."
+homepage = "http://barracks.tech"
+tags = ["dark", "two column"]
+features = ["", ""]
+min_version = 0.13
+
+[author]
+  name = "P. H. Madore"
+  homepage = "http://phm.link"

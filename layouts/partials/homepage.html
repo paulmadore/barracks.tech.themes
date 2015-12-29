@@ -1,0 +1,21 @@
+{{ $baseurl := .Site.BaseURL }}
+
+
+<main role="main" class="homepage">
+
+      <div id="navigation">
+      
+      {{ partial "nav.html" . }}
+  
+    </div>    
+  
+    <div id="main">
+  
+  <div class="article-list body">
+    {{ range first 3 .Data.Pages }}
+      {{ partial "article-list-item.html" . }}
+    {{ end }}
+   </div>
+   
+    </div>
+</main>
