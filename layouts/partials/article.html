@@ -4,6 +4,20 @@
   
   <section class="body" itemprop="articleBody">
     <h1 class="headline" itemprop="headline">{{ .Title }}</h1>
+     <div style="background: transparent;width:20%;">
+        
+        <div class="progress-indicator">
+            <svg>
+                <g>
+                    <circle cx="0" cy="0" r="20" stroke="black" class="animated-circle" transform="translate(50,50) rotate(-90)"  />
+                </g>
+                <g>
+                    <circle cx="0" cy="0" r="38" transform="translate(50,50) rotate(-90)"  />
+                </g>
+            </svg>
+            <div class="progress-count"></div>
+        </div>
+    </div>
     {{ .Content }}
   </section>
   
