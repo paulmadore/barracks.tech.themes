@@ -9,13 +9,15 @@
   
     </div>    
   
-    <div id="main">
+  
+    <div id="main"><div id="mobilefront">
   
   <div class="article-list body">
-    {{ range first 3 .Data.Pages }}
+    {{range first 10 .Paginator.Pages}}
       {{ partial "article-list-item.html" . }}
     {{ end }}
-   </div>
+   </div></div>
+  
    
     </div>
-</main>
+

@@ -4,7 +4,10 @@
   
   <section class="body" itemprop="articleBody">
     <h1 class="headline" itemprop="headline">{{ .Title }}</h1>
-     <div style="background: transparent;width:20%;">
+    <h3>{{ if .Params.author }}
+    {{ .Params.author }}
+    {{ end }}</h3>
+     <!--div style="background:transparent;width:20%;z-index:20;">
         
         <div class="progress-indicator">
             <svg>
@@ -17,8 +20,15 @@
             </svg>
             <div class="progress-count"></div>
         </div>
-    </div>
+    </div-->
     {{ .Content }}
+  </section>
+  <section  class="authorbio">
+    <blockquote>
+      {{ if .Params.authorbio }}
+    {{ .Params.authorbio }}
+    {{ end }}
+    </blockquote>
   </section>
   
     <div class="metart">
@@ -42,5 +52,9 @@
     </span>
 {{ end }}
   </div>
-    
+   
 </article>
+<section class="comments">
+    
+   {{ template "_internal/disqus.html" . }}
+   </section>

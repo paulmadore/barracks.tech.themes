@@ -1,118 +1,15 @@
-/* site fonts */
-@font-face {
-    font-family: 'believer';
-    src: url('fonts/believer.eot');
-    src: url('fonts/believer.eot?#iefix') format('embedded-opentype'),
-         url('fonts/believer.woff2') format('woff2'),
-         url('fonts/believer.woff') format('woff'),
-         url('fonts/believer.ttf') format('truetype'),
-         url('fonts/believer.svg#believer') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'hack';
-    src: url('fonts/hack.eot');
-    src: url('fonts/hack.eot?#iefix') format('embedded-opentype'),
-         url('fonts/hack.woff2') format('woff2'),
-         url('fonts/hack.woff') format('woff'),
-         url('fonts/hack.ttf') format('truetype'),
-         url('fonts/hack.svg#hack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'glacial';
-    src: url('fonts/glacial.eot');
-    src: url('fonts/glacial.eot?#iefix') format('embedded-opentype'),
-         url('fonts/glacial.woff2') format('woff2'),
-         url('fonts/glacial.woff') format('woff'),
-         url('fonts/glacial.ttf') format('truetype'),
-         url('fonts/glacial.svg#glacial') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'wheel';
-    src: url('fonts/wheel.eot');
-    src: url('fonts/wheel.eot?#iefix') format('embedded-opentype'),
-         url('fonts/wheel.woff2') format('woff2'),
-         url('fonts/wheel.woff') format('woff'),
-         url('fonts/wheel.ttf') format('truetype'),
-         url('fonts/wheel.svg#wheel') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'fifteen';
-    src: url('fonts/fifteen.eot');
-    src: url('fonts/fifteen.eot?#iefix') format('embedded-opentype'),
-         url('fonts/fifteen.woff2') format('woff2'),
-         url('fonts/fifteen.woff') format('woff'),
-         url('fonts/fifteen.ttf') format('truetype'),
-         url('fonts/fifteen.svg#fifteen') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* site elements */ 
 
 body {
-    background-color: #2d2d2d;
-    font-family: "glacial";
-    font-size: 14.5pt;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-h1 {
-    font-size: 32px;
-    font-size: 2rem;
-}
-h2 {
-    font-size: 24px;
-    font-size: 1.5rem;
-}
-h3 {
-    font-size: 20px;
-    font-size: 1.25rem;
-}
-h4 {
-    font-size: 16px;
-    font-size: 1rem;
-}
-h5 {
-    font-size: 14px;
-    font-size: .875rem;
-}
-h6 {
-    font-size: 12px;
-    font-size: .75rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  line-height: 1.25;
-  margin-top: 1em;
-  margin-bottom: .5em;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 16px;
-  margin-bottom: 1rem;
-}
-
-pre, code {
-  font-family: inherit;
-  font-size: inherit;
+    font-size: 14.5pt;   
 }
 
 a {
     outline: 0;
+}
+
+p {
+    margin-bottom: 16px;
 }
 
 /* boxes */
@@ -227,63 +124,7 @@ div.nonarthd {
     text-decoration: none;
     text-align: right;
 }
-/* --future use--
-   .inv {
-    height: 60px;
-    width: 210px;
-    margin: 25px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-}
-.inv:before {
-    content: "";
-    display: block;
-    background: #fff;
-    position: absolute;
-    top: -9px;
-    left: -9px;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-}
-.inv:after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: -9px;
-    right: -9px;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-}
-.inv .invbtm:before {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -9px;
-    left: -9px;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-}
-.box .invbtm:after{
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -9px;
-    right: -9px;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-}
-div {
-    display: -webkit-flex; 
-    -webkit-align-items: center; 
-    display: flex;
-    align-items: center;
-} 
-*/
+
 footer #copycrumbs {
     padding-left: 6vw;
     padding-right: 6vw;
@@ -354,8 +195,6 @@ header {
     background-color: transparent;
 
 }
-
-
     /* -- banner */
 .oversite {
     display: block;
@@ -371,7 +210,6 @@ header {
     font-size: 20vmin;
     font-weight: bold;
     padding: 0;
-
 }
 .oversite:hover {
     display: block;
@@ -514,39 +352,6 @@ article.single section,
   padding-bottom: 1rem;
 }
 
-/* 404 Page Layout */
-
-.page-not-found h1 {
-  text-align: center;
-  font-size: 5em;
-}
-
-.page-not-found h2 {
-  text-align: center;
-  font-size: 3em;
-  color: #a09f93;
-  margin-bottom: 64px;
-  margin-bottom: 4rem;
-}
-
-@media (max-width: 52em) {
-  .page-not-found h1 {
-    font-size: 3em;
-  }
-
-  .page-not-found h2 {
-    font-size: 2em;
-  }
-}
-
-/* Homepage Layout */
-
-@media (max-width: 52em) {
-  .homepage {
-    margin-bottom: 2rem;
-  }
-}
-
 .homepage h1.site-title {
   text-align: center;
   font-size: 5em;
@@ -571,15 +376,11 @@ h1.headline a:visited {
 
 }
 
-h2.headline {
+h2.headline, h2.headline a {
     font-family: "hack";
     color: #2d2d2d;
     font-size: 1.69em;
     text-align: right;
-}
-
-h2.headline a {
-    color: #2d2d2d;
     text-decoration: none;
 }
 
@@ -598,7 +399,6 @@ h2.headline a:hover {
 .container {
   margin-right: auto;
   margin-left: auto;
-  
 }
 
 .meta {
@@ -636,13 +436,12 @@ h2.headline a:hover {
 #navigation ul {
     list-style-type: none;
     margin-top: -10px;
-    margin-right: 6vw;
+    margin-right: 8vw;
 }
 
 #navigation ul li {
     text-align: right!important;
 }
-
 
 #spacer {
     margin-right: 2vw;
@@ -655,93 +454,6 @@ h2.headline a:hover {
     text-align: right;
 }
 
-section.body {
-    margin: 2%;
-}
-#mail {
-    font-family: "believer";
-    color: #d3d0c8;
-    font-size: 16pt;
-    margin: 5%;
-    border: 1px dashed #d3d0c8;
-    width: 390px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-#mail label {
-    font-family: "believer";
-}
-#mail input {
-    background-color: #7898b8;
-}
-#mail .formfield {
-    font-family: glacial;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#mail .formfieldname {
-    font-family: glacial;
-    margin-left: 5%;
-}
-#abt {
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-bottom: 25%;
-    color: #99cc99;
-    font-size: 1.2em;
-    
-}
-
-#abt h4 {
-    color: #7898b8;
-    font-size: 1.5em;
-    font-family: "believer";
-}
-
-#abt h5 {
-    color: #f2777a;
-    font-size: 1.5em;
-    font-family: "glacial";
-}
-
-#abt a {
-    color: #7898b8;
-    border-bottom: 1px dashed #99cc99;
-    text-decoration: none;
-}
-
-#abt a:hover {
-    color: #99cc99;
-    border-bottom: 1px dashed #7898b8;
-    text-decoration: none;
-}
-
-#abt ul {
-    font-family: "hack";
-    font-size: 0.9em;
-    color: #d3d0c8;
-}
-
-#abt ul li {
-    margin: 15px;
-}
-
-#abt .cls {
-    text-align: center;
-    font-family: "believer";
-    font-size: 20pt;
-}
-
-#abtcls {
-    margin-left: 1%;
-    position: fixed;
-    right: 0;
-    top: 0;
-}
-
-
 #space {
     height: 20%;
     min-height: 0.3in;
@@ -750,33 +462,6 @@ section.body {
 #submissions {
     margin-top: 2%;
     margin-bottom: 2%;
-
-}
-
-figure img.right {
-    float: right;
-    margin: 1vmin;
-}
-
-figure {
-    width: 50%;
-    text-overflow: clip;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-figure h4 {
-    font-size: 0.55em;
-    font-family: "hack";
-    margin: 1vmin;
-    color: #2d2d2d;
-    text-align: justify;
-}
-
-section.body a {
-    color: #7898b8;
-    text-decoration: none;
 }
 
 section.body a:hover {
@@ -793,37 +478,44 @@ section.body h3 {
     text-align: right;
     font-family: "hack";
     margin-top: -2vh;
+    margin-bottom: 10px;
     color: #7898b8;
-    
 }
 
-.navbar {
-    border-radius: 0;
-	text-transform: uppercase;
-	margin-bottom: 0px;
-    position: fixed;
-    width: 100%;
-    z-index: 100
+
+
+section.body blockquote:hover {
+    background: #2d2d2d;
+    border: 1px dotted #504e4e;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 
-.navbar-inverse {
-	background-color: #99cc99;
-    padding-bottom: 40px;
-    padding-top: 40px;
+section.authorbio:hover {
+    background: #2d2d2d;
+    border: 1px dotted #504e4e;
+    border-radius: 0.8em 0.8em 0.8em 0.8em;
 }
 
-.navbar-brand {
-	font-weight: 700;
-	font-size: 20px;
-    height: 35px;
-    line-height: 35px;
-	letter-spacing: 2px;
-    margin: 0;
-    padding: 0
+section.authorbio blockquote:hover {
+    font-size: 1.1em;
+    font-family: 'glacial';
+    color: #7898b8;
+    padding: 0.5em;
+    text-shadow: 1pt 0pt 1pt #99cc99;
 }
 
-.navbar-inverse .navbar-brand {
-	color: white;
+section.authorbio blockquote a {
+    color: #7898b8;
+    text-decoration: none;
+    border-bottom: 1px dotted #99cc99;
+    outline: 0;
+}
+
+section.authorbio blockquote a:hover {
+    color: #99cc99;
+    text-decoration: none;
+    border-bottom: 1px dotted #7898b8;
+    outline: 0;
 }
 
 .progress-indicator {
