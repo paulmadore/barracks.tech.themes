@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'believer';
+    src: url('fonts/believer.eot');
+    src: url('fonts/believer.eot?#iefix') format('embedded-opentype'),
+         url('fonts/believer.woff2') format('woff2'),
+         url('fonts/believer.woff') format('woff'),
+         url('fonts/believer.ttf') format('truetype'),
+         url('fonts/believer.svg#believer') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hack';
+    src: url('fonts/hack.eot');
+    src: url('fonts/hack.eot?#iefix') format('embedded-opentype'),
+         url('fonts/hack.woff2') format('woff2'),
+         url('fonts/hack.woff') format('woff'),
+         url('fonts/hack.ttf') format('truetype'),
+         url('fonts/hack.svg#hack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'glacial';
+    src: url('fonts/glacial.eot');
+    src: url('fonts/glacial.eot?#iefix') format('embedded-opentype'),
+         url('fonts/glacial.woff2') format('woff2'),
+         url('fonts/glacial.woff') format('woff'),
+         url('fonts/glacial.ttf') format('truetype'),
+         url('fonts/glacial.svg#glacial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'wheel';
+    src: url('fonts/wheel.eot');
+    src: url('fonts/wheel.eot?#iefix') format('embedded-opentype'),
+         url('fonts/wheel.woff2') format('woff2'),
+         url('fonts/wheel.woff') format('woff'),
+         url('fonts/wheel.ttf') format('truetype'),
+         url('fonts/wheel.svg#wheel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fifteen';
+    src: url('fonts/fifteen.eot');
+    src: url('fonts/fifteen.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fifteen.woff2') format('woff2'),
+         url('fonts/fifteen.woff') format('woff'),
+         url('fonts/fifteen.ttf') format('truetype'),
+         url('fonts/fifteen.svg#fifteen') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

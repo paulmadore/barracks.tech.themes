@@ -1,0 +1,81 @@
+#mail {
+    font-family: "believer";
+    color: #d3d0c8;
+    font-size: 16pt;
+    margin: 5%;
+    border: 1px dashed #d3d0c8;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#mail label {
+    font-family: "believer";
+}
+#mail input {
+    background-color: #7898b8;
+}
+#mail .formfield {
+    font-family: glacial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mail .formfieldname {
+    font-family: glacial;
+    margin-left: 5%;
+}
+#abt {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 25%;
+    color: #99cc99;
+    font-size: 1.2em;
+}
+
+#abt h4 {
+    color: #7898b8;
+    font-size: 1.5em;
+    font-family: "believer";
+}
+
+#abt h5 {
+    color: #f2777a;
+    font-size: 1.5em;
+    font-family: "glacial";
+}
+
+#abt a {
+    color: #7898b8;
+    border-bottom: 1px dashed #99cc99;
+    text-decoration: none;
+}
+
+#abt a:hover {
+    color: #99cc99;
+    border-bottom: 1px dashed #7898b8;
+    text-decoration: none;
+}
+
+#abt ul {
+    font-family: "hack";
+    font-size: 0.9em;
+    color: #d3d0c8;
+}
+
+#abt ul li {
+    margin: 15px;
+}
+
+#abt .cls {
+    text-align: center;
+    font-family: "believer";
+    font-size: 20pt;
+}
+
+#abtcls {
+    margin-left: 1%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}

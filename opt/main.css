@@ -1,0 +1,788 @@
+body {
+    background-color: #2d2d2d;
+    font-family: "glacial";
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 14.5px;
+    }
+}
+
+@media (min-width: 858px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 780px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 702px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+h1 {
+    font-size: 32px;
+    font-size: 2rem;
+}
+h2 {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 16px;
+    font-size: 1rem;
+}
+h5 {
+    font-size: 14px;
+    font-size: .875rem;
+}
+h6 {
+    font-size: 12px;
+    font-size: .75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+#contentPrimary {
+    width: 85%;
+    background-color: #efefef;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 33px;
+    min-height: 650px;
+    padding: 5%;
+    
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+pre, code {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+figure img.right {
+    float: right;
+    margin: 1vmin;
+}
+
+figure {
+    width: 50%;
+    text-overflow: clip;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure h4 {
+    font-size: 0.55em;
+    font-family: "hack";
+    margin: 1vmin;
+    color: #2d2d2d;
+    text-align: justify;
+}
+
+section.body a {
+    color: #7898b8;
+    text-decoration: none;
+}
+
+section.body {
+    margin: 2%;
+}
+
+section.body blockquote {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background: #504e4e;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    border: 1px dotted #2d2d2d;
+    font-size: 1.1em;
+    font-family: 'glacial';
+    color: #7898b8;
+    text-shadow: 1pt 1pt 0pt #504e4e;
+    padding: 1.35em;
+}
+
+section.authorbio {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    background: #504e4e;
+    border-radius: 0.8em 0.8em 0.8em 0.8em;
+    border: 1px dotted #2d2d2d;
+}
+
+section.authorbio blockquote {
+    font-size: 1.1em;
+    font-family: 'glacial';
+    color: #7898b8;
+    text-shadow: 1pt 1pt 0pt #504e4e;
+    padding: 0.15em;
+}
+
+/* site elements */ 
+
+body {
+    font-size: 14.5pt;   
+}
+
+a {
+    outline: 0;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* boxes */
+
+#navigation {
+    width: 20%;
+    background: rgba(242, 119, 122, 0.25);
+    border-radius: 0.5em 0.0em 0.0em 0.5em;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+        margin-left: 4vh;
+    float: left;
+}
+#navigation:hover {
+    width: 20%;
+    background: rgba(45, 45, 45, 0.25);
+    border-radius: 0.5em 0.0em 0.0em 0.5em;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+    margin-left: 4vh;
+    float: left;
+}
+#wrapmain {
+    width: 85%;
+    margin-left: auto;
+    padding-left: 2vw;
+    margin-right: auto;
+    height: 95%;
+}
+#main {
+    width: 75%;
+    margin-left: auto;       
+    margin-right: 1in;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #e7e5e5;
+    min-height: 6in;
+    border-radius: 0.0em 0.75em 0.75em 0.75em;  
+ }
+#main img, figure img {
+    border-style: inset;
+    border-color: rgba(45, 45, 45, 0.25);
+    border-width: thick;
+    margin: 1%;
+    border-radius: 0.0em 0.75em 0.75em 0.75em; 
+}
+#main img:hover, figure img:hover {
+    border-style: dotted;
+    border-color: rgba(242, 119, 122, 0.25);
+    border-width: thick;
+    margin: 1%;
+    border-radius: 0.0em 0.75em 0.75em 0.75em; 
+}
+ 
+#contentPrimary a {
+    color: #7898b8;
+    text-decoration: none;
+}
+
+#contentPrimary a:hover {
+    color: #99cc99;
+    text-decoration: none;
+    border-bottom: 1px dotted silver;
+}
+
+#contentPrimary h2, #contentPrimaryh1 {
+    text-shadow: 2px 2px silver;
+    color: #2d2d2d;
+    text-decoration: none;
+    border-bottom: none;
+}
+#contentPrimary h2 a:hover, #contentPrimary h1 a:hover {
+    text-shadow: 2px 2px #2e2c27;
+    color: #7898b8;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#contentPrimary ul#toc {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1.nonart {
+    font-family: "believer";
+    font-size: 28pt;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #7898b8;
+    right: 0;
+    border-bottom: 1px solid #f2777a;
+}
+h1.nonart:hover {
+    font-family: "believer";
+    font-size: 28pt;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #f2777a;
+    border-bottom: 1px solid #7898b8;
+}
+div.nonarthd {
+    display: inline-block;
+    margin-left: 45%;
+    padding-top: 1%;
+    max-width: 45%;
+}
+.summary {
+    padding: 1em;
+    border-bottom: 1px dashed rgba(242, 119, 122, 0.25);
+    font-size: 15pt;
+    line-height: 16pt;
+    text-indent: 0.5em;
+    color: #2e2c27;
+}
+#readmore {
+    margin-top: 1vh;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 5px;
+    font-family: "believer";
+}
+.summary a, .summary a:visited {
+    color: #f2777a;
+    text-decoration: none;
+    text-align: right;
+}
+.summary a:hover {
+    color: #99cc99;
+    text-decoration: none;
+    text-align: right;
+}
+
+footer #copycrumbs {
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background-color: transparent;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #99cc99;
+    width: 68%;
+}
+
+footer #copycrumbs:hover {
+    background: rgba(242, 119, 122, 0.25);
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    color: #7898b8;
+}
+
+footer #copycrumbs .copyright {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer #copycrumbs .copyrightrans {
+    font-family: "believer";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13pt;
+    color: rgba(242, 119, 122, 0.25);
+    background: rgba(242, 119, 122, 0.25);
+}
+footer #copycrumbs .copyrightrans {
+    font-family: "believer";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13pt;
+    color: #2d2d2d;
+    background: #2d2d2d;
+}
+footer:hover #copycrumbs .copyrightrans, footer #copycrumbs .copyrightrans a {
+    font-family: "believer";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13pt;
+    color: #2d2d2d;
+    background: transparent;
+    text-decoration: none;
+}
+footer:hover #copycrumbs .copyrightrans a:hover {
+    font-family: "believer";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13pt;
+    color: #99cc99;
+    background: transparent;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 1.5vh;
+    background-color: transparent;
+
+}
+    /* -- banner */
+
+
+#toppo {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1vh;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    width: 100%;
+}
+.bnr0 {
+    letter-spacing: 3ch;
+   
+}
+
+.bnra {
+    color: #d3d0c8;
+    font-family: "fifteen";
+    
+}
+.bnra2 {
+    color: #d3d0c8;
+    font-family: "fifteen";
+    
+}
+.bnrb {
+    color: #f2777a;
+    font-family: "fifteen";
+}
+.bnrb:hover {
+    color: #7898b8;
+    font-family: "fifteen";
+}
+.bnrc {
+    color: #99cc99;
+    font-family: monospace;
+}
+.bnrc:hover {
+    color: #f2777a;
+    font-family: monospace;
+}
+
+.headerimg {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  outline-style: dashed;
+  outline-color: #2d2d2d;
+  border: none;
+}
+
+.headerimg img {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0;
+  outline: 0;
+  outline-style: dashed;
+  outline-color: #2d2d2d;
+  border: none;
+}
+
+
+
+    /* -- left sidebar */
+
+.mast, .cats {
+    font-family: "hack";
+    font-size: 16pt;
+    color: #99cc99;
+}
+
+.catsul {
+    list-style-type: none;
+}
+
+.mast a, .mast a:visited, .cats a, .cats a:visited, .etcnav li a, .etcnav li a:visited {
+    color: #99cc99;
+    text-decoration: none;
+}
+.mast a:hover, .cats a:hover, .tags a:hover, .etcnav li a:hover {
+    color: #7898b8;
+    text-decoration: none;
+}
+
+.tags a, .tags a:visited {
+    color: #d3d0c8;
+    text-decoration: none;
+    border-bottom: 1px dotted #d3d0c8;
+}
+
+.tags a:hover {
+    font-size: 14pt;
+}
+
+h3.tagsh {
+    font-family: "believer";
+    font-size: 18pt;
+    color: #7898b8;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.tags {
+    font-family: "glacial";
+    color: #e7e5e5;
+    font-size: 7pt;
+    margin-left: 10%;
+}
+
+a.tags {
+    padding-right: 10px;
+}
+
+    /* -- article */
+
+article.single section,
+.article-list article {
+  padding-left: 128px;
+  padding-left: 8rem;
+  padding-right: 128px;
+  padding-right: 8rem;
+  padding-top: 16px;
+  padding-top: 1rem;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+}
+
+.homepage h1.site-title {
+  text-align: center;
+  font-size: 5em;
+  color: #66cccc;
+}
+
+h1 {
+    font-family: "hack";
+    color: #2d2d2d;
+    font-size: 1.8em;
+    text-align: right;
+}
+
+h1 a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: #2d2d2d;
+    text-decoration: none;
+
+}
+
+h2, h2 a {
+    font-family: "hack";
+    color: #2d2d2d;
+    font-size: 1.69em;
+    text-align: right;
+    text-decoration: none;
+}
+
+h2 a:visited {
+    color: #2d2d2d;
+    text-decoration: none;
+    border-bottom: 1px dotted #99cc99;
+}
+
+h2 a:hover {
+    color: #99cc99;
+    text-decoration: none;
+    border-bottom: 1px dotted #2d2d2d;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.meta {
+    text-align: right;
+    font-size: 0.45em;
+    border-bottom: 1px dotted rgba(242, 119, 122, 0.25);
+    font-family: "hack";
+    width: 25%;
+    margin-right: 0;
+    color: #f2777a;
+    margin-left: auto;
+}
+
+.metart {
+    text-align: right;
+    font-size: 0.45em;
+    border-bottom: 1px dotted rgba(242, 119, 122, 0.25);
+    font-family: "hack";
+    width: 25%;
+    margin-right: 50px;
+    color: #f2777a;
+    margin-left: auto;
+}
+
+.metart a {
+    color: #7898b8;
+    text-decoration: none;
+}
+
+.metart a:hover {
+    color: #2d2d2d;
+    border-bottom: 1px dotted #7898b8;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin-top: -10px;
+    margin-right: 8vw;
+}
+
+#navigation ul li {
+    text-align: right!important;
+}
+
+#spacer {
+    margin-right: 2vw;
+    height:100%;
+}
+
+.etcnav {
+    font-size: 1.4em;
+    float: right;
+    text-align: right;
+}
+
+#space {
+    height: 20%;
+    min-height: 0.3in;
+}
+
+#submissions {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+section.body a:hover {
+    color: #2d2d2d;
+    text-decoration: overline;
+}
+
+section.body a:focus {
+    color: #99cc99;
+    text-decoration: underline;
+}
+
+section.body h3 {
+    text-align: right;
+    font-family: "hack";
+    margin-top: -2vh;
+    margin-bottom: 10px;
+    color: #7898b8;
+}
+
+
+
+section.body blockquote:hover {
+    background: #2d2d2d;
+    border: 1px dotted #504e4e;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+section.authorbio:hover {
+    background: #2d2d2d;
+    border: 1px dotted #504e4e;
+    border-radius: 0.8em 0.8em 0.8em 0.8em;
+}
+
+section.authorbio blockquote:hover {
+    font-size: 1.1em;
+    font-family: 'glacial';
+    color: #7898b8;
+    padding: 0.5em;
+    text-shadow: 1pt 0pt 1pt #99cc99;
+}
+
+section.authorbio blockquote a {
+    color: #7898b8;
+    text-decoration: none;
+    border-bottom: 1px dotted #99cc99;
+    outline: 0;
+}
+
+section.authorbio blockquote a:hover {
+    color: #99cc99;
+    text-decoration: none;
+    border-bottom: 1px dotted #7898b8;
+    outline: 0;
+}
+
+.progress-indicator {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    z-index: 20;
+}
+.progress-count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: #99cc99;
+    font-family: "believer";
+}
+
+svg {
+    position: absolute;
+}
+
+circle {
+    fill: rgba(45, 45, 45, 0.25);
+}
+
+svg .animated-circle {
+    fill: transparent;
+    stroke-width: 40px;
+    stroke: #f2777a;
+    stroke-dasharray: 126;
+    stroke-dashoffset: 126;
+}
+
+
+    border: 1px dashed #d3d0c8;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#mail label {
+    font-family: "believer";
+}
+#mail input {
+    background-color: #7898b8;
+}
+#mail .formfield {
+    font-family: glacial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mail .formfieldname {
+    font-family: glacial;
+    margin-left: 5%;
+}
+#abt {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 25%;
+    color: #99cc99;
+    font-size: 1.2em;
+}
+
+#abt h4 {
+    color: #7898b8;
+    font-size: 1.5em;
+    font-family: "believer";
+}
+
+#abt h5 {
+    color: #f2777a;
+    font-size: 1.5em;
+    font-family: "glacial";
+}
+
+#abt a {
+    color: #7898b8;
+    border-bottom: 1px dashed #99cc99;
+    text-decoration: none;
+}
+
+#abt a:hover {
+    color: #99cc99;
+    border-bottom: 1px dashed #7898b8;
+    text-decoration: none;
+}
+
+#abt ul {
+    font-family: "hack";
+    font-size: 0.9em;
+    color: #d3d0c8;
+}
+
+#abt ul li {
+    margin: 15px;
+}
+
+#abt .cls {
+    text-align: center;
+    font-family: "believer";
+    font-size: 20pt;
+}
+
+#abtcls {
+    margin-left: 1%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+div.tocWrap {
+    
+}

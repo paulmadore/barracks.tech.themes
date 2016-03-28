@@ -1,0 +1,138 @@
+section.sub1, section.sub2 {
+    width: auto;
+    margin-top: 4%;
+    padding: 1%;
+}
+
+#submissions h1, #submissions h2 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #d3d0c8;
+    font-family: "hack";
+    text-align: center;
+    
+}
+
+#submissions h2 {
+    font-size: 2.2em;
+    text-align: left;
+}
+
+
+section.sub1 textarea, section.sub2 textarea {
+    border-radius: 0.9em 0.9em 0.9em 0.9em;
+    border: 1px #d3d0c8 thin;
+    font-family: "wheel";
+    padding: 25px;
+    margin-top: 2vh;
+    marging-bottom: 2vh;
+}
+
+section.sub1 input, section.sub2 input {
+    margin-top: 2vh;
+    marging-bottom: 2vh;
+}
+
+section.sub1 textarea, section.sub2 textarea, section.sub1 input, section.sub2 input {
+    border: 1px #d3d0c8 thin;
+    background: transparent;
+    color: #d3d0c8;
+    font-size: 0.89em;
+    font-family: "wheel";
+    padding: 25px;
+    
+}
+
+section.sub1 textarea:hover, section.sub2 textarea:hover, section.sub1 input:hover, section.sub2 input:hover {
+    border: 1px #7898b8 thin;
+    background: rgba(242, 119, 122, 0.25);
+    color: #2d2d2d;
+    font-size: 0.89em;
+    font-family: "wheel";
+    padding: 25px;
+    
+    
+    }
+section.sub1 textarea:focus, section.sub2 textarea:focus, section.sub1 input:focus, section.sub2 input:focus {
+    border-radius: 0.9em 0.9em 0.9em 0.9em;
+    border-style: inset;
+    border: 3px #99cc99 thin;
+    background: rgba(242, 119, 122, 0.25);
+    color: #d3d0c8;
+    font-family: "wheel";
+    padding: 25px;
+    
+    
+}
+
+section.sub1 input, section.sub2 input, section.sub1 input:hover, section.sub2 input:hover, section.sub1 input:active, section.sub2 input:active {
+    width: 40vw;
+    max-width: 80%;
+    min-width: 40vw;
+    overflow: auto;
+}
+
+section.sub1 input:hover, section.sub2 input:hover {
+    border-radius: 0.9em 0.9em 0.9em 0.9em;
+}
+
+section.sub1 input, section.sub2 input {
+    border-radius: 0.9em 0.9em 0.9em 0.9em;
+    
+}
+
+section.sub1 #subm input.count {
+    text-align: right;
+    outline: 0;
+    border: none;
+    display: block;
+}
+section.sub1 #subm input.count:hover, section.sub1 #subm input.count:focus {
+    background: transparent;
+    color: #d3d0c8;
+}
+
+section.sub1 div.sub, section.sub2 div.sub {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40vw;
+    max-width: 40vw;
+    padding-left: 10vw;
+}
+
+#markd {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol.guide {
+    font-family: "hack";
+    color: #d3d0c8;
+}
+section.guidelines {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+section.guidelines ol.guide li:hover {
+    color: rgba(242, 119, 122, 0.85);
+}
+section.guidelines ol.guide li a:hover {
+    color: #7898b8;
+}
+
+
+section.guidelines a {
+    color: #d3d0c8;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+section.guidelines a:hover {
+    color: #99cc99;
+    text-decoration: none;
+    border-bottom: none;
+}
